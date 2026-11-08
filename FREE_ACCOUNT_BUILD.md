@@ -15,7 +15,7 @@ When moving to a **paid** account, restore the entitlements:
 ```sh
 git clone --recurse-submodules -b free-account-build https://github.com/gkardeepblue/Trio.git
 cd Trio
-echo 'DEVELOPER_TEAM = 55DWTBC2JC' > ConfigOverride.xcconfig   # git-ignored
+echo 'DEVELOPER_TEAM = YOUR_TEAM_ID' > ConfigOverride.xcconfig   # git-ignored; Team ID is in Xcode → Signing
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 ```
 Sign in to Xcode (Settings → Accounts) with the same Apple ID, open `Trio.xcworkspace`,
